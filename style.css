@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* for input */
+.input-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.input-container input{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 18px;
+}
+
+
+/* for-conatainers */
+#brickwithwater,#onlywater{
+    display: flex;
+    justify-content: center;
+
+}
+
+/* .rowContainer,.child{
+    border: 0.5px solid rgb(204, 202, 202);
+
+} */
+
+
+/* For buttons */
+#btnContainer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+}
+.btn{
+    height: 40px;
+    padding: 0px 5px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+
+#submitBtn{
+    background-color: green;
+    width: 150px;
+    letter-spacing: 1px;
+}
+
+
+
+#textContainer{
+    text-align: center;
+}
+
+.chart {
+    display: inline-block;
+    margin-right: 0;
+    transition: all .3s ease;
+    transform: rotateX(180deg);
+    display: flex;
+    gap: 15px;
+  }
+
+.bar{
+    position: relative;
+    fill:rgb(187, 187, 14);
+    font-family: Helvetica, sans-serif;
+    display: inline-block;
+}
+
+.barwater{
+    fill: rgb(19, 151, 151);
+}
+
+#resultContainer{
+    margin-bottom: 20px;
+}
