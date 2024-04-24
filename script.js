@@ -45,6 +45,10 @@ function handleSubmit() {
   const inputVal = inputElem.value.split(",").map(Number);
   const findNegativeValue = inputVal.some((val) => val < 0);
 
+  if (!inputElem.value) {
+    return alert("Please Enter The Value Before Submitting");
+  }
+
   //checking whether value has any negative number
   if (findNegativeValue) {
     alert(
